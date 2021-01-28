@@ -1,0 +1,385 @@
+/* https://i.stack.imgur.com/TM6aO.png */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #17223b !important;
+    color: #eeeeee;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+.raman h3 {
+    color: #6b778d;
+}
+
+
+li,
+button,
+label,
+input,
+p {
+    font-size: 1.3rem;
+}
+
+nav ul li {
+    font-size: 1.7rem;
+}
+
+/* table,
+tr,
+td {
+    font-size: 1.3rem;
+} */
+
+h2 {
+    font-size: 2.3rem;
+    color: #ffd369;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffd369;
+    text-decoration: none;
+}
+
+/* 
+td {
+    padding: 0 25px 10px 0;
+    text-align: center;
+}
+
+td::before {
+    content: '';
+} */
+
+button {
+    background-color: #263859;
+    border: 2px solid #eeeeee;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 0.65rem;
+}
+
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 6rem;
+    margin-bottom: 15rem;
+}
+
+nav {
+    display: flex;
+    width: 98%;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 30rem;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    font-size: 1.2rem;
+    margin: 5px;
+}
+
+#logo {
+    flex: 2 1 30rem;
+}
+
+.raman h3,
+h1 {
+    margin: 0.8rem;
+}
+
+.aboutSection {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1;
+}
+
+.projects h2 {
+    padding-bottom: 1rem;
+}
+
+
+.containera-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.containera {
+    width: 400px;
+    padding: 20px;
+    color: #ffffff;
+    margin-top: 10px;
+    overflow: hidden;
+    box-shadow: 0px -6px 8px 0px rgba(0, 0, 0, 0.1), 0px 6px 8px 0px rgba(0, 0, 0, 0.1), 6px 0px 8px 0px rgba(0, 0, 0, 0.1), -6px 0px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.containera img {
+    width: 100%;
+}
+
+.containera .title-card {
+    font-size: 25px;
+    font-weight: 100;
+    margin: 10px 0 0 0;
+    color: #ffd369;
+}
+
+.containera span {
+    width: 100%;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.containera span p {
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.containera span p,
+i {
+    font-size: 16px;
+    font-weight: 100;
+    display: inline-block;
+}
+
+.containera button {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    opacity: 1;
+}
+
+
+.containera p {
+    padding-top: 10px;
+    font-size: 17px;
+    height: 50%;
+}
+
+.container {
+
+    width: 100%;
+}
+
+#success-message {
+    opacity: 0;
+}
+
+.col-xs-12.col-sm-12.col-md-12.col-lg-12 {
+    padding: 0 20% 0 20%;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+
+.form-group .form-control {
+    -webkit-box-shadow: none;
+    border-bottom: 1px;
+    border-style: none none solid none;
+    border-color: #ffd369;
+}
+
+.form-group .form-control:focus {
+    box-shadow: none;
+    border-width: 0 0 2px 0;
+    border-color: #fff;
+
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-mod.btn-large {
+    height: auto;
+    padding: 13px 52px;
+    font-size: 15px;
+}
+
+.btn-mod.btn-border {
+    color: #ffd369;
+    border: 1px solid #ffd369;
+    background: transparent;
+}
+
+.btn-mod,
+a.btn-mod {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 4px 13px;
+    color: #fff;
+    background: rgba(34, 34, 34, .9);
+    border: 1px solid transparent;
+    font-size: 11px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -moz-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -o-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    transition: all 0.2s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+
+.btn-mod.btn-border:hover,
+.btn-mod.btn-border:active,
+.btn-mod.btn-border:focus,
+.btn-mod.btn-border:active:focus {
+    color: #fff;
+    border-color: #fff;
+    background: #000;
+    outline: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .btn-mod.btn-large {
+        padding: 6px 16px;
+        font-size: 11px;
+    }
+
+    .form-title {
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    nav {
+        text-align: center;
+    }
+
+    #logo {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 3.6rem;
+    }
+
+    header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+
+    .aboutme {
+        display: block;
+    }
+
+    .languages {
+        display: block;
+        width: 150px;
+    }
+
+    .allCards {
+        justify-content: space-around;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        font-size: 0.8rem;
+    }
+
+    #logo {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    button {
+        margin: 0.5rem;
+        padding: 0.4rem;
+        font-size: 0.8rem;
+    }
+
+    .raman button {
+        font-size: 1rem;
+    }
+
+    li,
+    td,
+    label,
+    input,
+    p {
+        font-size: 0.65rem;
+    }
+
+    .languages h3 {
+        margin-top: 1rem;
+    }
+
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    td {
+        padding: 0.5rem;
+
+    }
+
+    .raman {
+        margin-top: 3rem;
+    }
+
+    header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+    }
+}
