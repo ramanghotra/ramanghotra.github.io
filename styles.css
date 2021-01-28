@@ -23,11 +23,11 @@ button,
 label,
 input,
 p {
-    font-size: 0.9rem;
+    font-size: 1.35rem;
 }
 
 nav ul li {
-    font-size: 1.2rem;
+    font-size: 1.45rem;
 }
 
 /* table,
@@ -37,7 +37,7 @@ td {
 } */
 
 h2 {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     color: #ffd369;
 }
 
