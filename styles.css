@@ -10,7 +10,7 @@
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .raman h3 {
@@ -23,11 +23,11 @@ button,
 label,
 input,
 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 nav ul li {
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 
 /* table,
@@ -37,7 +37,7 @@ td {
 } */
 
 h2 {
-    font-size: 2.3rem;
+    font-size: 1.7rem;
     color: #ffd369;
 }
 
